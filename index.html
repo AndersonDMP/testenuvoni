@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>teste</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<header>
+		<h1>Atividades e Tempo Despendido</h1>
+	</header>
+	<section>
+		<form method="post" action="form.php">
+			<div>
+				<label type="tittle" name="atividades" id="atividades">Atividades</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox1" value="option1">
+				<label class="form-check-label" for="inlineCheckbox1">Produção</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox2" value="option2">
+				<label class="form-check-label" for="inlineCheckbox2">Conferencia de Qualidade</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox3" value="option3">
+				<label class="form-check-label" for="inlineCheckbox3">Acabamento</label>
+			</div>
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" name="checkbox" id="inlineCheckbox4" value="option4">
+				<label class="form-check-label" for="inlineCheckbox4">Armazenamento</label>
+			</div>
+			<div class="form-group">
+				<label for="nascimento">Data</label>
+				<input type="date" name="data" id="data" class="form-control">
+			</div>
+			<div>
+				<label for="time">Inicio das Atividades</label>
+				<input type="time" name="time" id="time" class="form-control">
+			</div>
+			<div>
+				<label for="time">Término das Atividades</label>
+				<input type="time" name="time" id="time" class="form-control">
+			</div>
+			<div>
+				<button type="submit" class="btn btn-info">Confirmar</button>
+			</div>
+		</form>
+	</section>
+	<footer></footer>
+		<script type="text/javascript" src="js/script.js"></script>
+
+	</body>
+</html>
